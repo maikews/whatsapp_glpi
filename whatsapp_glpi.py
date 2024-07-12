@@ -62,7 +62,7 @@ def monitorar_chamados():
 
                 #Irá fazer a chamada a API
 
-                response = requests.post('https://api.callmebot.com/whatsapp.php', data={
+                response = requests.post('http://127.0.0.1:3000/client/sendMessage/f9344d8d-a512-4132-9bk1-8485a04ef70c', data={
                 'chatId': f'{designado.Users.mobile}@c.us',
                 'contentType': 'string',
                 'content': f'          🔧 *‎ GLPI* 🔧\n\n_Você tem um chamado:_ \n\nNúmero: {ticket.id} \n\n```-``` {ticket.name}\n\n Requerente: {requerenteS}\n\n Observadores: {observadoreS}'
