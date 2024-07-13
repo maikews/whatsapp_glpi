@@ -1,3 +1,4 @@
+![Logo](https://github.com/maikews/whatsapp_glpi/blob/main/Imagens/logo.png?raw=true)
 # GLPI + Whatsapp - Notificação
 
 Api do whatsapp utilizada: https://github.com/chrishubert/whatsapp-api
