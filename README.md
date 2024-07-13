@@ -28,4 +28,4 @@ sudo /etc/init.d/cron restart
 
 ### Resultado
 ---
-![Resultado](https://github.com/maikews/whatsapp_glpi/blob/main/Imagens/Result.JPG?raw=true)
+![Resultado](https://github.com/maikews/whatsapp_glpi/blob/main/Imagens/result.png?raw=true)
