@@ -31,7 +31,8 @@ class Users(Base):
     mobile = Column(String)
 
 def monitorar_chamados():
-    engine = create_engine('mysql+mysqlconnector://root:''@localhost/glpi10')
+    engine = create_engine('mariadb+mariadbconnector://root:''@localhost/glpi10')
+    #engine = create_engine('mysql+mysqlconnector://root:''@localhost/glpi10')
     Session = sessionmaker(bind=engine)
 
     #while True:
