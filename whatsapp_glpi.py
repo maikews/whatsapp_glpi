@@ -1,5 +1,5 @@
 #
-# ALTER TABLE glpi_tickets ADD COLUMN processado BOOLEAN DEFAULT FALSE;
+# ALTER TABLE glpi_tickets ADD processado BOOLEAN NOT NULL DEFAULT FALSE;
 #
 
 from sqlalchemy import create_engine, Column, Integer, String, Boolean
