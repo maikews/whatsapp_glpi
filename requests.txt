@@ -1,0 +1,15 @@
+## MYSQL
+## sudo apt install libmysqlclient-dev
+
+#pymysql
+#mysql-connector
+#mysql-connector-python
+#sqlalchemy
+#requests
+
+## MARIADB
+## apt install libmariadb-dev
+
+sqlalchemy
+requests
+mariadb
